@@ -12,6 +12,10 @@
     border: solid white 3px;
     background: lightblue;
     aspect-ratio: 1;
+    font-size: 5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
 .featureBlock {
@@ -19,6 +23,9 @@
     background: white;
     grid-column: 3/5;
     grid-row: 2;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 
 .verticalBlock {
@@ -27,5 +34,11 @@
     grid-column: 1;
     grid-row: 1/3;
     writing-mode: vertical-rl;
-    text-orientation: sideways;
+    /* text-orientation: sideways; */
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
+
+/* //template areas */
